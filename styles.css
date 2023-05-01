@@ -60,6 +60,7 @@ li a:hover {
     gap: 8px;
     cursor: pointer;
     padding: 10px;
+    margin-right: -10px;
   }
 
   .lines {
@@ -90,7 +91,7 @@ li a:hover {
     background-color: #f1c40f;
     padding: 35px 0;
     border-radius: 0 0 20px 20px;
-    box-shadow: 0px 5px 15px rgba(128, 128, 128, 0.363);
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.363);
   }
 
   li a {
@@ -110,13 +111,7 @@ li a:hover {
   }
 }
 
-section div {
-  width: 95%;
-  height: 500px;
-  background-color: azure;
-  margin: 10px auto;
-}
-
+/* SKIP */
 footer {
   position: absolute;
   bottom: 30px;
